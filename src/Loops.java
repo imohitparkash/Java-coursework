@@ -1,6 +1,8 @@
+import java.util.Scanner;
+
 public class Loops {
     public static void main (String[] args){
-      /*//  int num=5;
+      /* //  int num=5;
      // int f=1;
       //nt i;;
       //for (i=num;i>0;i++);
@@ -43,21 +45,40 @@ public class Loops {
             System.out.println(j);
         }
         System.out.println();
-    }*/
-        int i,j;
-        for (i=0;i<100;i++){
+    }
+        int i,j=64;
+        for (i=0;i<=100;i++){
             for (j=2;j<i;j++){
                 if(i%j==0){
                     System.out.println("not prime");
+                    break;
                 }
             }
             if (i==j){
                 System.out.println("is prime");
             }
+        }
+        int i,num;
+        int sum=0;
+        for (num=1;num<=5;num++){
+            int f=1;
+            for (i=num;i>0;i--)
+            {
+               f=f*1;
+            }
+            System.out.println("factorial of " +num+ " is " +f);
+            sum=sum+f;
+            System.out.println(sum);
+        }*/
+        Scanner sc=new Scanner(System.in);
+        int num=153,sum=0;
+        while (num>0)
+        {
+            int r = num%10;
+            sum=sum+r*r*r;
+            num=num/10;
 
         }
-
-
-
+        System.out.println(sum);
     }
 }
