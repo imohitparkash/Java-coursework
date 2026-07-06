@@ -29,7 +29,7 @@ public class loops1 {
         }
 
 */
-        int num =154;
+       /* int num =154;
         int sum =0;
         while(num>0) {
 
@@ -38,7 +38,18 @@ public class loops1 {
                 num = num / 10;
 
         }
-        System.out.println(sum);
+        System.out.println(sum);*/
+        int i,n=7;
+        for (i=2;i<n;i++){
+            if (n%i==0){
+                System.out.println("not prime");
+                break;
+            }
+        }
+        if (i==n){
+            System.out.println("prime");
+        }
+
 
     }
 }
