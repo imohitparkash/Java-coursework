@@ -69,7 +69,7 @@ public class Loops {
             System.out.println("factorial of " +num+ " is " +f);
             sum=sum+f;
             System.out.println(sum);
-        }*/
+        }
         Scanner sc=new Scanner(System.in);
         int num=153,sum=0;
         while (num>0)
@@ -79,6 +79,29 @@ public class Loops {
             num=num/10;
 
         }
-        System.out.println(sum);
+        System.out.println(sum);*/
+        int num;
+        for (num=1;num<=1000;num++){
+            int t=num;
+            int count=0;
+            while (t>0){
+                count++;
+                t=t/10;
+            }
+            t=num;
+            int sum=0;
+            while (t>0)
+            {
+                int r=t%10;
+                sum=sum+(int)Math.pow(r,count);
+                t=t/10;
+            }
+            System.out.println(sum);
+            if (sum==num){
+                count++;
+                System.out.println(num+"is armstrong");
+            }
+            System.out.println(count);
+        }
     }
 }
