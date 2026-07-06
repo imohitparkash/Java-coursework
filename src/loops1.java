@@ -1,6 +1,6 @@
 public class loops1 {
     public static void main(String[] args){
-        int num =145,i,sum=0;
+       /* int num =145,i,sum=0;
         while(num>0){
             int r =num%10;
             int f=1;
@@ -13,6 +13,32 @@ public class loops1 {
             num=num/10;
 
         }
+        System.out.println(sum);*/
+        /*int i,n=6;
+        for (i=2;i<n;i++){
+            if (n%i==0){
+                System.out.println("not prime");
+                break;
+            }
+
+            }
+        if (i==n){
+            System.out.println("prime");
+
+
+        }
+
+*/
+        int num =154;
+        int sum =0;
+        while(num>0) {
+
+                int r = num % 10;
+                sum = sum + r * r * r;
+                num = num / 10;
+
+        }
         System.out.println(sum);
+
     }
 }
