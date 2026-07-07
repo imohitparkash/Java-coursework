@@ -1,7 +1,7 @@
 import java.util.*;
 public class another {
     public static void main(String[] args){
-        char ch;
+       /* char ch;
         System.out.println("enter character");
         Scanner sc = new Scanner(System.in);
         ch = sc.next().charAt(0);
@@ -17,5 +17,39 @@ public class another {
              System.out.println("default");
 
         }
-    }
-}
+
+        */
+
+
+                int k=0;
+                for(int i=0;i<5;i++)
+                {
+                    for(int j=i;j>=0;j--)
+                    {
+                        System.out.print(k++ +" ");
+                    }
+                    System.out.println();
+                }
+
+            }
+
+        }
+
+/* 0
+   1 2
+   3 4 5
+   6 7 8 9
+   10 11 12 13 14
+
+			for(i=1;i<6;i++)
+			{
+			for(j=1;j<=i;j++)
+			{
+				System.out.print(num+" ");
+				num++;
+			}
+			System.out.println();
+			}
+
+*/
+

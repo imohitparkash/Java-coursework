@@ -38,7 +38,7 @@ public class loops1 {
                 num = num / 10;
 
         }
-        System.out.println(sum);*/
+        System.out.println(sum);
         int i,n=7;
         for (i=2;i<n;i++){
             if (n%i==0){
@@ -50,6 +50,6 @@ public class loops1 {
             System.out.println("prime");
         }
 
-
+*/     
     }
 }

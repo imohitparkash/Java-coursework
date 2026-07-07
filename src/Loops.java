@@ -132,7 +132,7 @@ public class Loops {
                 }
 
 */
-        
+
 
                 int num;
                 int c=0;
