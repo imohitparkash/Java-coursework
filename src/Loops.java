@@ -102,7 +102,37 @@ public class Loops {
                 System.out.println(num+"is armstrong");
             }
             System.out.println(count);
-        }*/
+        }
+
+                int num;
+                int c=0;
+                for(num =1;num<=1000;num++)
+                {
+                    int t= num;
+                    int count =0;
+                    while(t>0)
+                    {
+                        count++;
+                        t=t/10;
+                    }
+                    t=num;
+                    int sum=0;
+                    while(t>0)
+                    {
+                        int r=t%10;
+                        sum=sum+(int)Math.pow(r, count);
+                        t=t/10;
+                    }
+                    if(sum==num)
+                    {
+                        c++;
+                        System.out.println(num+"is armstrong");
+
+                    }
+                }
+
+*/
+        
 
                 int num;
                 int c=0;
@@ -132,7 +162,7 @@ public class Loops {
                 }
 
 
+            }
 
+        }
 
-    }
-}
