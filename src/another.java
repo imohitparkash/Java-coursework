@@ -1,6 +1,6 @@
 import java.util.*;
 public class another {
-    public static void main(String[] args){
+    public static void main(String[] args) {
        /* char ch;
         System.out.println("enter character");
         Scanner sc = new Scanner(System.in);
@@ -19,22 +19,6 @@ public class another {
         }
 
         */
-
-
-                int k=0;
-                for(int i=0;i<5;i++)
-                {
-                    for(int j=i;j>=0;j--)
-                    {
-                        System.out.print(k++ +" ");
-                    }
-                    System.out.println();
-                }
-
-            }
-
-        }
-
 /* 0
    1 2
    3 4 5
@@ -52,4 +36,8 @@ public class another {
 			}
 
 */
+
+
+    }
+}
 
