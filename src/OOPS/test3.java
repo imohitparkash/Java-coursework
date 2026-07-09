@@ -1,0 +1,24 @@
+package OOPS;
+
+public class test3 {
+    int factorial(int x)
+    {
+        int i,f=1;
+        for(i=1;i<=x;i++){
+            f=f*i;
+
+        }
+        return f;
+    }
+
+    public static void main(String[] args) {
+        int i;
+        float sum = 0;
+        test3 obj=new test3();
+        for (i=1;i<=5;i++){
+        int fact = obj.factorial(i);
+        sum =sum +(float)i/fact;
+        System.out.println("factorial: "+ fact);}
+        System.out.println("sum : "+sum);
+    }
+}
