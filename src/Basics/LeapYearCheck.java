@@ -1,4 +1,6 @@
-public class basic {
+package Basics;
+
+public class LeapYearCheck {
     public static void main(String[] args) {
         int year = 2001;
         if (year % 4 == 0) {

@@ -1,6 +1,6 @@
 package OOPS;
 
-public class test5 {
+public class StaticVariableDemo {
     static int num;
     void fun(){
         num =10;
@@ -9,8 +9,8 @@ public class test5 {
         System.out.println(num);
     }
     public static void main(String[] args) {
-        test5 obj1 =new test5();
-        test5 obj2 =new test5();
+        StaticVariableDemo obj1 =new StaticVariableDemo();
+        StaticVariableDemo obj2 =new StaticVariableDemo();
         obj1.fun();
         obj2.show();
     }

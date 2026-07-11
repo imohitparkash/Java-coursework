@@ -1,3 +1,5 @@
+package Basics;
+
 public class swap {
     public static void main(String[] args){
         int arr[]={3,7,5,2,9,6},i;

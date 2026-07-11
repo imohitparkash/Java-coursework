@@ -1,6 +1,6 @@
 package Arrayprogram;
 
-public class unique
+public class ElementsOccurringOnce
 {
     public static void main(String[] args) {
         int arr[]={4,5,2,4,4,4,2,6,4,2,7,4};

@@ -1,7 +1,7 @@
             package OOPS;
 
 
-            public class test4 {
+            public class ArmstrongNumberCheck {
                 int digit(int num){
                     int c=0;
                     while(num>0){
@@ -23,7 +23,7 @@
                 }
                 public static void main(String[] args) {
                     int num =12;
-                    test4 obj = new test4();
+                    ArmstrongNumberCheck obj = new ArmstrongNumberCheck();
                     int ans=obj.fun(num);
                     if (ans==num){
                         System.out.println("armstrong");
