@@ -1,4 +1,4 @@
-package Arrayprogram;
+package Bootcamp.Arrayprogram;
 
 public class MaxMin {
     public static void main(String[] args){

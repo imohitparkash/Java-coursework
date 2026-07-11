@@ -1,4 +1,4 @@
-package Arrayprogram;
+package Bootcamp.Arrayprogram;
 
 public class ArrayTraversal {
     public static void main (String[] args){

@@ -1,4 +1,4 @@
-package Basics;
+package Bootcamp.Basics;
 
 import java.util.Scanner;
 

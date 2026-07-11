@@ -1,4 +1,4 @@
-package OOPS;
+package Bootcamp.OOPS;
 
 public class StaticVariableDemo {
     static int num;

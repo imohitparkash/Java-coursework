@@ -1,6 +1,5 @@
-package Arrayprogram;
+package Bootcamp.Arrayprogram;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class BinarySearch

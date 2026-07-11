@@ -1,4 +1,4 @@
-package Arrayprogram;
+package Bootcamp.Arrayprogram;
 
 import java.util.Scanner;
 

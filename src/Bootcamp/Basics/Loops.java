@@ -1,4 +1,4 @@
-package Basics;
+package Bootcamp.Basics;
 
 public class Loops {
     public static void main (String[] args){

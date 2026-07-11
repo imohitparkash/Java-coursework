@@ -1,4 +1,4 @@
-package OOPS;
+package Bootcamp.OOPS;
 
 public class ObjectCreationDemo {
     void fun(){
