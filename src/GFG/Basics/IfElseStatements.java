@@ -14,7 +14,7 @@ public class IfElseStatements {
             System.out.println("odd");
         }*/
         if (n>0){
-            System.out.print("Positive");
+            System.out.print("Positive ");
             if (n%2==0)
                 System.out.print("even\n");
             else System.out.print("odd\n");
@@ -22,7 +22,7 @@ public class IfElseStatements {
             System.out.println("Negative");
             if (n%2==0)
                 System.out.print("even\n");
-            else System.out.println("odd\n");
+            else System.out.print("odd\n");
         }
         else System.out.println("zero");
 
