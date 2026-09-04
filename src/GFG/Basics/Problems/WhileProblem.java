@@ -8,7 +8,7 @@ class GFG {
         int x = sc.nextInt();
         // code here
         while (x>=0) {
-            System.out.println(x);
+            System.out.print(x);
             x--;
 
         }
